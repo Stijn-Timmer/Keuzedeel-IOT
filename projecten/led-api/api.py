@@ -72,7 +72,7 @@ async def led_on():
     return JSONResponse(respFormat)
 
 
-#Do the same here as above but reverse somethings to match the off state
+#Do the same here as above but reverse some things to match the off state
 
 @api.get('/led/off')
 async def led_off():
